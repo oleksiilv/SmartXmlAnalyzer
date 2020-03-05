@@ -118,3 +118,28 @@ Perl version 5.10 or higher
 Perl Modules:
 * Params::Validate
 * Readonly
+
+# Execs and bundles available within repository
+
+Some exec and bundles files are available here: [execs](execs).
+
+Windows exe file:
+
+```aidl
+execs\smart_xml_analyzer.exe example\sample-0-origin.html example\sample-1-evil-gemini.html make-everything-ok-button
+```
+
+## Experimental
+
+par archive (requires perl and par to be installed):
+
+```aidl
+par experimental\execs\smart_xml_analyzer.par example\sample-0-origin.html example\sample-1-evil-gemini.html make-everything-ok-button
+```
+
+Perl bundle script (requires perl and par to be installed):
+
+```aidl
+perl experimental\execs\smart_xml_analyzer_bundle.pl example\sample-0-origin.html example\sample-1-evil-gemini.html make-everything-ok-button
+
+```
