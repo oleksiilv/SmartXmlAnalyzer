@@ -110,3 +110,11 @@ xpath '/html/body/div/div/div[3]/div[1]/div/div[3]/a' has a preference value 4
 ==============================
 Recommeded xpath is '/html/body/div/div/div[3]/div[1]/div/div[3]/a'
 ```
+
+# Script dependencies
+
+Perl version 5.10 or higher
+
+Perl Modules:
+* Params::Validate
+* Readonly
